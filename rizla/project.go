@@ -22,8 +22,7 @@ type MatcherFunc func(string) bool
 
 // DefaultGoMatcher is the default Matcher for the Project iteral
 func DefaultGoMatcher(fullname string) bool {
-	return (filepath.Ext(fullname) == goExt) ||
-		(!isWindows && strings.Contains(fullname, goExt))
+	return true
 }
 
 // DefaultWatcher is the default Watcher for the Project iteral
