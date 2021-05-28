@@ -14,12 +14,12 @@ import (
 	"time"
 
 	"github.com/kataras/golog"
-	"github.com/kataras/rizla/rizla"
+	"github.com/86speed/rizla/rizla"
 )
 
 const (
 	// Version of rizla command line tool
-	Version = "0.1.1"
+	Version = "0.1.2"
 	// Name of rizla
 	Name = "Rizla"
 	// Description of rizla
